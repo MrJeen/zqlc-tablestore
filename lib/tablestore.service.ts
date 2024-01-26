@@ -4,7 +4,7 @@ import * as TableStore from 'tablestore';
 
 @Injectable()
 export class TableStoreService {
-  private client: TableStore.Client;
+  public client: TableStore.Client;
 
   constructor(@Inject(TABLESTORE_OPTIONS) options: TableStore.ConfigOptions) {
     this.client = new TableStore.Client(options);
