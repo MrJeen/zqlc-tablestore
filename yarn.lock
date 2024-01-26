@@ -156,7 +156,7 @@
   resolved "https://registry.npmjs.org/@types/long/-/long-4.0.2.tgz#b74129719fc8d11c01868010082d483b7545591a"
   integrity sha512-MqTGEo5bj5t157U6fA/BiDynNkn0YknVdh48CMPkTSpFTVmvao5UQmm7uEF6xBEo7qIMAlY/JSleYaE6VOdpaA==
 
-"@types/node@*", "@types/node@>=13.7.0":
+"@types/node@>=13.7.0":
   version "20.11.7"
   resolved "https://registry.npmjs.org/@types/node/-/node-20.11.7.tgz#cb49aedd758c978c30806d0c38b520ed2a3df6e0"
   integrity sha512-GPmeN1C3XAyV5uybAf4cMLWT9fDWcmQhZVtMFu7OR32WjrqGG+Wnk2V1d0bmtUyE/Zy1QJ9BxyiTih9z8Oks8A==
@@ -174,13 +174,6 @@
   version "7.5.6"
   resolved "https://registry.npmjs.org/@types/semver/-/semver-7.5.6.tgz#c65b2bfce1bec346582c07724e3f8c1017a20339"
   integrity sha512-dn1l8LaMea/IjDoHNd9J52uBbInB796CDffS6VdIxvqYCPSG0V0DzHp76GpaWnlhg88uYyPbXCDIowa86ybd5A==
-
-"@types/tablestore@^5.1.3":
-  version "5.1.3"
-  resolved "https://registry.npmjs.org/@types/tablestore/-/tablestore-5.1.3.tgz#205de0633ba6302e33c1b3700b36095d1ccf1a17"
-  integrity sha512-/G+o91ZMrMlUueZY9BqxnrSpT8PyDc5uytTlsvIkvrPhF6V50Jr5xH8r0NLjD0aCiAHVheQVlpTuFe1OKVPdgA==
-  dependencies:
-    "@types/node" "*"
 
 "@typescript-eslint/eslint-plugin@^5.0.0":
   version "5.62.0"
