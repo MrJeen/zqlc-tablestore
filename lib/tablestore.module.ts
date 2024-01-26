@@ -10,10 +10,10 @@ import {
 import { TableStoreService } from './tablestore.service';
 
 @Module({})
-export class RedisModule {
+export class TableStoreModule {
   static forRoot(options: TableStoreModuleOptions): DynamicModule {
     return {
-      module: RedisModule,
+      module: TableStoreModule,
       global: options.isGlobal,
       providers: [createOptionsProvider(options)],
       exports: [TableStoreService],
@@ -22,7 +22,7 @@ export class RedisModule {
 
   static forRootAsync(options: TableStoreModuleAsyncOptions): DynamicModule {
     return {
-      module: RedisModule,
+      module: TableStoreModule,
       global: options.isGlobal,
       imports: options.imports,
       providers: [createAsyncOptionsProvider(options)],
