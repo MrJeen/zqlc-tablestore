@@ -1,7 +1,7 @@
 {
   "name": "@zqlc/tablestore",
   "version": "1.0.3",
-  "description": "Nest - redis",
+  "description": "tablestore",
   "author": "jy",
   "license": "MIT",
   "scripts": {
