@@ -9,7 +9,10 @@ import {
 } from './tablestore.provider';
 import { TableStoreService } from './tablestore.service';
 
-@Module({})
+@Module({
+  providers: [TableStoreService],
+  exports: [TableStoreService],
+})
 export class TableStoreModule {
   static forRoot(options: TableStoreModuleOptions): DynamicModule {
     return {
