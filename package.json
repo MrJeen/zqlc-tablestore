@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@types/node": "^18.11.18",
+    "@types/tablestore": "^5.1.3",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
     "eslint": "^8.0.1",
